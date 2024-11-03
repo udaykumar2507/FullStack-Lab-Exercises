@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Capital Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Select Country</h2>
+        <form name="f">
+            <select name="country" onchange="printCapital()">
+                <option value="select">SELECT</option>
+                <option value="india">INDIA</option>
+                <option value="pakistan">PAKISTAN</option>
+                <option value="bangladesh">BANGLADESH</option>
+                <option value="uae">UAE</option>
+                <option value="japan">JAPAN</option>
+            </select>
+        </form>
+        <p id="txt">SELECT A COUNTRY</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

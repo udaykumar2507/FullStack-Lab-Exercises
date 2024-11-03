@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(234, 237, 226);
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    padding:20px 20px;
+    border:2px solid black;
+    border-radius:10px;
+
+}
